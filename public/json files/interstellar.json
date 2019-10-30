@@ -1,0 +1,70 @@
+[
+  { "name": "Interstellar" },
+  {
+    "urlImage": "music/interstellar/Interstellar.jpg"
+  },
+  {
+    "data": [
+      {
+        "name": "Dreaming of the Crash"
+      },
+      {
+        "name": "Cornfield Chase"
+      },
+      { "name": "Dust" },
+      { "name": "Day One" },
+      { "name": "Stay" },
+      {
+        "name": "Message from Home"
+      },
+      {
+        "name": "The Wormhole"
+      },
+      {
+        "name": "Mountains"
+      },
+      {
+        "name": "Afraid of Time"
+      },
+      {
+        "name": "A Place Among the Stars"
+      },
+      {
+        "name": "Running Out"
+      },
+      {
+        "name": "I'm Going Home"
+      },
+      { "name": "Coward" },
+      { "name": "Detach" },
+      { "name": "S.T.A.Y" },
+      {
+        "name": "Where We're Going"
+      },
+      {
+        "name": "First Step"
+      },
+      {
+        "name": "Flying Drone"
+      },
+      {
+        "name": "Atmospheric Entry"
+      },
+      {
+        "name": "No Need to Come Back"
+      },
+      {
+        "name": "Imperfect Lock"
+      },
+      {
+        "name": "No Time for Caution"
+      },
+      {
+        "name": "What Happens Now_"
+      },
+      {
+        "name": "Do Not Go Gentle Into That Good Night"
+      }
+    ]
+  }
+]

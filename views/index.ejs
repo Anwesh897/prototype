@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Prototype</title>
+  </head>
+  <body>
+    <div class="left">
+      <a href="/interstellar">
+        <img
+          class="mainImage"
+          src="music/interstellar/Interstellar.jpg"
+          alt="alt"
+        />
+      </a>
+      <a href="/blackpanther">
+        <img
+          class="mainImage"
+          src="music/blackpanther/BlackPanther.jpg"
+          alt="alt"
+        />
+      </a>
+    </div>
+
+    <a
+      style="margin-top: 1%;margin-right:2%;float: right;text-decoration: none;font-size: 30px;color: white;background: dodgerblue;border-radius: 5px;"
+      href="/"
+      >Home</a
+    >
+    <div class="main">
+      <h2><%= name%></h2>
+      <img class="mainImage" src=<%= image%> alt="alt" />
+      <div class="wrapper">
+        <%list.forEach(item=>{%>
+        <div class="content">
+          <img src=<%= image%> alt="alt" />
+          <h3><%= item.name%></h3>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div>
+        <audio id="audio" controls autoplay>
+          <source src="" />
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
